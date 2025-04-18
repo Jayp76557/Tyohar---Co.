@@ -1,3 +1,4 @@
+// Hide Password / EYE
 const showHiddenPassword = (loginPass, loginEye) =>{
     const input = document.getElementById(loginPass),
           iconEye = document.getElementById(loginEye)
@@ -16,6 +17,7 @@ const showHiddenPassword = (loginPass, loginEye) =>{
 };
 showHiddenPassword('login-pass', 'login-eye');
 
+// Login credensials
 document.getElementById('login-form').addEventListener('submit', function(e) {
     e.preventDefault();
   
@@ -33,4 +35,8 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
       alert("Invalid email or password. Please try again.");
     }
   });
+
+
+
+
   
